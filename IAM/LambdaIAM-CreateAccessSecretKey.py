@@ -27,10 +27,5 @@ def lambda_handler(event, context):
     print(f"Access Key ID: {result['AccessKeyId']}")
     print(f"Secret Access Key: {result['SecretAccessKey']}")
     
-    #Get the access key last used
-    # last_used = iam.get_access_key_last_used( AccessKeyId={result['AccessKeyId']})
-    # print(f"last Used: {last_used}")
-    
-    
     # You can return the keys as a response, if needed
     return result
