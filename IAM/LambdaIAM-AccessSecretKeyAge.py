@@ -19,8 +19,8 @@ def get_accesskey_age(iam,username,key_id):
         age = current_time - last_used_date
         
         #print the result
-        print(f"Last Used Date: {last_used_date}")
-        print(f"Age is:{age}")
+        print(f" Last Used Date : {last_used_date}")
+        print(f" Age is : {age}")
 
     else:
         return "Access key has not been used"
